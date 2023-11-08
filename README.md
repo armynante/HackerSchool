@@ -1,1 +1,121 @@
 # HackerSchool
+- **Fundamentals** (**Day 1**)
+  - The goal of the first segment is to deploy a website that is publicly accessible. We'll use the building blocks of web development with minimal dependencies. The first day, we'll get you set up with the basic tools of the trade.
+  - Setup
+    - Using an IDE
+      - We'll download Visual Studio Code and go over the basics. 
+        - Navigation
+        - Extensions
+        - Terminal
+      - https://code.visualstudio.com/
+    - Terminal Fundamentals
+      - Getting comfortable in the shell is a high-priority
+        - https://linuxcommand.org/index.php
+      - Basic Unix structure 
+        - Folders
+        - Ownership
+          - Sudo?
+      - Navigation
+        - CD
+        - LS
+        - MKDIR
+        - PWD
+        - Clear
+        - Exiting things
+          - VI hell
+          - Nano
+      - REPLs
+        - Execution environments
+        - Processes
+        - Exiting
+      - Shells
+        - What is a shell?
+        - Bash / ZSH
+        - Environment variables
+        -  .rc files
+  - Research
+    - Google Search / Stack Overflow
+      - What makes a good resource
+    - ChatGPT
+      - How to debug
+    - Errors and Docs
+      - Reading an error
+      - Reading docs
+    - Learning through osmosis
+      - HackerNews
+        - Start reading technical articles even if you don't understand them.
+      - Youtube Channels
+        - Fireship.io
+          - Great for quick exposure to web dev ecosystem 
+          - https://www.youtube.com/watch?v=rrB13utjYV4
+        - The Primeagen
+          - Meta-development commentary 
+          - Very technical but exposes you to the main "factions" in programming
+            - OOP vs Functional, VIM/Emacs, Framework vs. Roll-your-own
+          - https://www.youtube.com/watch?v=ZfG8BSTX0Lw 
+  - **Web Development Basics**
+    - Version Control
+      - Sign up for a GitHub account.
+        - https://github.com/
+      - Basics of Git
+        - Repos
+          - READMEs
+          - Staring
+          - Forking
+          - Cloning
+        - Workflow 
+          - Basic Commands
+            - Pull
+            - Branch
+            - Commit 
+            - Push 
+          - Good habits
+            - Comments
+            - Commit messages
+            - How to un-fuck yourself
+            - Secret Management
+    - **Website Basics**
+      - HTML
+        - Rendering "Hello World"
+        - Semantic Markup
+          - Structure
+          - Hierarchy 
+        - Navigation
+          - Folders and links
+      - CSS
+        - Adding it to a page
+          - HEAD tag
+          - STYLE tag
+        - Basic styling
+          - Size
+          - Color
+          - Spacing
+            - Padding
+            - Margin
+          - Structure
+            - Grids
+            - Flex
+      - Javascript 
+        - Adding it to the page
+        - Triggering an alert
+      - Push to GitHub
+    - **Deployment**
+      - Buy a domain name
+        - https://domainr.com/
+      - Signup for DigitalOcean
+        - https://www.digitalocean.com
+      - Pushing the site to the web
+        - VMs (Droplets)
+        - Authentication
+          - SSH keys
+          - Connecting to a VM through an SSH session
+        - Packages / Linux Stuff
+          - Apt-get
+          - Installing Git 
+          - Pulling the repo
+        - WebServers
+          - Install NGINX 
+          - Configuration
+        - DNS
+          - CNAME / A records
+          - NGINX configuration
