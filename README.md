@@ -1,4 +1,4 @@
-# HackerSchool
+# HackerSchool [josh was here]
 - **Fundamentals** (**Day 1**)
   - The goal of the first segment is to deploy a website that is publicly accessible. We'll use the building blocks of web development with minimal dependencies. The first day, we'll get you set up with the basic tools of the trade.
   - Setup
