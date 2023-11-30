@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinner Suggestion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        #result {
+            font-size: 24px;
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>What's for Dinner?</h1>
+    <button onclick="suggestDinner()">Suggest Dinner</button>
+    <p id="result"></p>
+
+    <script>
+        function suggestDinner() {
+            // List of dinner options
+            var dinnerOptions = [
+                "Pizza",
+                "Sushi",
+                "Burgers",
+                "Pasta",
+                "Tacos",
+                "Salad",
+                "Chicken Stir Fry",
+                "Grilled Salmon",
+                "Vegetarian Curry"
+            ];
+
+            // Get a random index from the dinnerOptions array
+            var randomIndex = Math.floor(Math.random() * dinnerOptions.length);
+
+            // Display the randomly chosen dinner option
+            document.getElementById("result").innerHTML = "How about having " + dinnerOptions[randomIndex] + " for dinner?";
+        }
+    </script>
+</body>
+</html>
