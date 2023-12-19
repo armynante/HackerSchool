@@ -1,0 +1,14 @@
+const puppeteer = require('puppeteer');
+
+(async () => {
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+
+    // Corrected line with quotes around the URL
+    await page.goto('https://tiffycooks.com/');
+
+
+    // Additional code for scraping goes here
+
+    await browser.close();
+})();
